@@ -1,0 +1,22 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('/images/skydivebg.png') center no-repeat;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    width: 50%;
+    height: 400px;
+    margin-left: 80px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: start;
+    padding-top: 150px;
+}
+
+h1 {
+    padding-bottom: 100px;
+}
