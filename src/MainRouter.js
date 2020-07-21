@@ -4,6 +4,8 @@ import { Route, Switch } from 'react-router-dom';
 
 const Nav = React.lazy(() => import('./components/Nav/Nav'));
 const Home = React.lazy(() => import('./components/Home/Home'));
+const DropzoneMap = React.lazy(() => import('./components/DropzoneMap/DropzoneMap'));
+
 
 
 export default class MainRouter extends Component {
@@ -11,8 +13,16 @@ export default class MainRouter extends Component {
         return (
             <>
                 <Nav />
+               
+                <Home/>
 
-               <Home/>
+                <Switch>
+
+                    <Route exact path='/home' component={Home}/>
+                    <Route exact path='/dropzone' component={DropzoneMap}/>
+                </Switch>
+                
+               
             </>
         );
     }

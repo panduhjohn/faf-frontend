@@ -53,7 +53,7 @@ export class Nav extends Component {
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/' id='nav-links'>
+                                    <NavLink to='/dropzone' id='nav-links'>
                                         Dropzones
                                     </NavLink>
                                 </li>
